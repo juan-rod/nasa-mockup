@@ -1,0 +1,11 @@
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+p {
+  font-family: 'Chilanka', cursive;
+}
+
+.main-container header {
+  background-image: url('./img-nasa.png');
+}
