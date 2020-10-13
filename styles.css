@@ -3,9 +3,19 @@ h1 {
   font-family: 'Roboto Mono', monospace;
 }
 p {
-  font-family: 'Chilanka', cursive;
+  /* google font pairs */
 }
 
-.main-container header {
-  background-image: url('./img-nasa.png');
+.border-1 {
+  border: 1px solid red;
 }
+.border-2 {
+  border: 1px solid blue;
+}
+.border-3 {
+  border: 1px solid green;
+}
+
+/* .main-container header {
+  background-image: url('./img-nasa.png');
+} */
