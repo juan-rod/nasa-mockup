@@ -1,4 +1,6 @@
-
+body {
+  margin: 0;
+}
 h1 {
   font-family: 'Roboto Mono', monospace;
 }
@@ -19,3 +21,41 @@ p {
 /* .main-container header {
   background-image: url('./img-nasa.png');
 } */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 850px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.main-container header {
+  background-image: url('./nasa.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container header h1{
+  font-size: 74px;
+  color: #f6f4f7;
+}
+.main-container main {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group:nth-child(1) {
+  margin-bottom: 20px;
+}
